@@ -178,6 +178,7 @@
     <Compile Include="Controllers\EquiposController.cs" />
     <Compile Include="Controllers\HistorialsController.cs" />
     <Compile Include="Controllers\HistorialSEsController.cs" />
+    <Compile Include="Controllers\historico_correoSEController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InformeTecsController.cs" />
     <Compile Include="Controllers\InformeTecSEsController.cs" />
@@ -213,6 +214,7 @@
     <Compile Include="Models\Equipos.cs" />
     <Compile Include="Models\Historial.cs" />
     <Compile Include="Models\HistorialSE.cs" />
+    <Compile Include="Models\historico_correoSE.cs" />
     <Compile Include="Models\InformeTec.cs" />
     <Compile Include="Models\InformeTecSE.cs" />
     <Compile Include="Models\Inner.cs" />

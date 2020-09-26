@@ -7,6 +7,8 @@
 
     public partial class db : DbContext
     {
+        internal object historico_CorreoSE;
+
         public db()
             : base("name=db")
         {
@@ -31,6 +33,7 @@
         public DbSet<HistorialSE> HistorialSE { get; set; }
         public DbSet<InformeTec> InformeTec { get; set; }
         public DbSet<InformeTecSE> InformeTecSE { get; set; }
+        public DbSet<historico_correoSE> historico_correoSEs { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
